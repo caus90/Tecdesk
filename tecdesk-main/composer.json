@@ -1,0 +1,16 @@
+{
+    "name": "giovanni.guimaraes/tecdesk",
+    "description": "Sistema de chamados TecDesk, desenvolvido em PHP.",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

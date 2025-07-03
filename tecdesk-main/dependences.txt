@@ -1,0 +1,22 @@
+# Dependências do Projeto
+
+## PHP
+- PHP >= v8.3
+- Composer
+- Laravel/Framework
+
+## CSS/Frontend
+- Tailwind CSS v4.1
+
+## Node.js
+- Node.js v22.14.0
+- npm v10.9.2
+
+## PostgreSQL
+- postgresql v17.4
+
+
+commands:
+npm install
+composer install
+composer dump-autoload

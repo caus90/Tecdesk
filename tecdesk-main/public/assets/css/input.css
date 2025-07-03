@@ -1,0 +1,45 @@
+@import './config.css';
+@import "tailwindcss";
+
+@layer utilities {
+  :root {
+    --azul: #004AAD;
+    --azul-escuro: #1C1D33;
+    --azul-claro: #38B6FF;
+  }
+
+  .bg-azul-escuro {
+    background-color: #1C1D33;
+  }
+
+  .bg-azul-escuro-input {
+    background-color: #3a3b55;
+  }
+
+  .bg-azul-claro {
+    background-color: #38B6FF;
+  }
+}
+
+@layer utilities {
+  .scrollbar-custom {
+    scrollbar-color: #007dc6 #e5e7eb;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 9999px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #007dc6;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+}
